@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@layer base {
+    .nav__item{
+        @apply px-3 py-2 rounded-full hover:bg-slate-800;
+    }
+    .responsive__navItem{
+        @apply px-3 py-2  rounded-md hover:bg-slate-800;
+    }
+
+}
