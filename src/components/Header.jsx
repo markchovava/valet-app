@@ -8,8 +8,8 @@ function Header() {
 
   return (
     <>
-        <section className='w-[100vw] bg-slate-950 h-auto flex items-center justify-center'>
-            <div className='container max-w-screen-xl text-white py-3 px-3 md:px-0 hidden md:flex items-center justify-between'>
+        <section className='w-[100%] bg-black h-auto flex items-center justify-center'>
+            <div className='container  text-white py-4 px-3 md:px-0 hidden md:flex items-center justify-between'>
                 <div id='header-left' className='flex items-center justify-between gap-3'>
                     <div id='header-left-logo' className='px-2'>
                         <Link to='/'>
@@ -51,19 +51,21 @@ function Header() {
                     </Link>
                 </div>
             </div>
-            <div className='container max-w-screen-xl text-white py-3 px-4 md:px-0 md:hidden'>
-                <div className='w-[100%] flex items-center justify-between'>
-                    <div id='responsive-header-left-logo' className='px-2'>
-                        <Link to='/'>
-                            <div className='font-semibold text-lg cursor-pointer'>
-                                VALET
-                            </div>
-                        </Link>
-                    </div>
-                    <div 
-                        className='text-slate-400 border border-slate-400 p-1 rounded cursor-pointer'
-                        onClick={() => setIsHamburger(!isHamburger)}>
-                        <GiHamburgerMenu className='text-lg' />
+            <div className='container text-white py-3 px-4 md:px-0 md:hidden'>
+                <div className='w-[100%]'>
+                    <div className='mx-auto w-[95%] py-4 flex items-center justify-between'>
+                        <div id='responsive-header-left-logo' className=''>
+                            <Link to='/'>
+                                <div className='font-semibold text-lg cursor-pointer'>
+                                    VALET
+                                </div>
+                            </Link>
+                        </div>
+                        <div 
+                            className='text-slate-400 border border-slate-400 p-1 rounded cursor-pointer'
+                            onClick={() => setIsHamburger(!isHamburger)}>
+                            <GiHamburgerMenu className='text-lg' />
+                        </div>
                     </div>
                 </div>
                 { isHamburger == true ? 

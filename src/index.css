@@ -6,11 +6,50 @@
 
 
 @layer base {
+
     .nav__item{
-        @apply px-3 py-2 rounded-full hover:bg-slate-800;
-    }
-    .responsive__navItem{
-        @apply px-3 py-2  rounded-md hover:bg-slate-800;
+        @apply px-3 py-2 rounded-full hover:bg-gray-800;
     }
 
+    .responsive__navItem{
+        @apply px-3 py-2  rounded-md hover:bg-gray-800;
+    }
+
+    .bg__gradientRed{
+        @apply bg-cover bg-gradient-to-r from-[#f00] to-red-800;
+    }
+
+    .bg__gradientPink{
+        @apply bg-cover bg-gradient-to-br from-pink-50 to-pink-400;
+    }
+
+    .bg__gradientPurple{
+        @apply bg-cover bg-gradient-to-br from-purple-50 to-purple-400;
+    }
+
+}
+
+
+.custom__overlayBlack::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(120deg, #000000, #000000);
+    opacity: .4;
+}
+
+.swiper-button-next, 
+.swiper-button-prev {
+      color: white !important;
+    } 
+
+.swiper-button-next, 
+.swiper-button-prev{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
