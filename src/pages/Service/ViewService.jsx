@@ -26,7 +26,7 @@ const ViewService = () => {
             </div>
         </section>
 
-        <section className='w-[100%] h-auto py-8'>
+        <section className='w-[100%] h-auto py-16'>
             <div className='mx-[8rem]'>
                 <div className='flex justify-between items-center gap-8 pt-16'>
                     <div className='w-[50%] overflow-hidden rounded-xl'>
@@ -45,8 +45,8 @@ const ViewService = () => {
                 </div>    
             </div>
         </section>
-
-        <section className='w-[100%] h-auto pt-4 pb-8 bg-gray-100'>
+       {/*  <div className='w-[100%] h-[2rem]'></div> */}
+        <section className='w-[100%] h-auto mt-8 pt-8 pb-8 bg-gray-100'>
             <div className='mx-[8rem]'>
                <h1 className='mb-4 text-[3.5rem] font-bold'>Customer Information</h1>
                 <form>
