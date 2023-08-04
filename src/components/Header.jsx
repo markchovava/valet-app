@@ -21,30 +21,35 @@ function Header() {
                     <div id='header-left-nav'>
                         <ul className='flex items-center justify-between gap-2'>
                             <Link to='/'>
-                            <li className='nav__item'>
-                                Home
-                            </li>
+                                <li className='nav__item'>
+                                    Home
+                                </li>
                             </Link>
                             <Link to='/about'>
-                            <li className='nav__item'>
-                               About Us
-                            </li>
+                                <li className='nav__item'>
+                                About Us
+                                </li>
+                            </Link>
+                            <Link to='/service'>
+                                <li className='nav__item'>
+                                    Our Services
+                                </li>
                             </Link>
                             <Link to='/contact'>
-                            <li className='nav__item'>
-                                Contact Us
-                            </li>
+                                <li className='nav__item'>
+                                    Contact Us
+                                </li>
                             </Link>
                         </ul>
                     </div>
                 </div>
                 <div id='header-right' className='p-2 flex items-center justify-between gap-1'>
-                    <Link to='/contact'>
+                    <Link to='/login'>
                         <span className='px-3 py-2 rounded-full transition hover:text-slate-200'>
                             Login
                         </span>
                     </Link>
-                    <Link to='/contact'>
+                    <Link to='/register'>
                     <span className='px-3 py-2 rounded-full transition bg-slate-800 border border-slate-800 hover:border-slate-300'>
                         Register
                     </span>
@@ -81,10 +86,15 @@ function Header() {
                                     About Us
                                 </li>
                             </Link>
+                            <Link to='/service'>
+                                <li className='nav__item'>
+                                    Our Services
+                                </li>
+                            </Link>
                             <Link to='/contact'>
-                            <li className='responsive__navItem'>
-                                Contact Us
-                            </li>
+                                <li className='responsive__navItem'>
+                                    Contact Us
+                                </li>
                             </Link>
                         </ul>
                         <div className='py-2 flex justify-center gap-2'>

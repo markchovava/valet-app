@@ -1,0 +1,6 @@
+[
+    {"id": 1, "title": "1 Hour Parking", "price": "0.50"},
+    {"id": 2, "title": "2 Hour Parking", "price": "1.00"},
+    {"id": 3, "title": "3 Hour Parking", "price": "2.00"},
+    {"id": 3, "title": "3 Hour Parking", "price": "3.00"}
+]

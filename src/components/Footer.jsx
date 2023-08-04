@@ -30,6 +30,11 @@ const Footer = () => {
                         About Us
                     </li>
                     </Link>
+                    <Link to='/service'>
+                    <li className='hover:text-gray-400 font-medium transition-all hover:translate-x-2'>
+                        Our Services
+                    </li>
+                    </Link>
                     <Link to='/contact'>
                     <li className='hover:text-gray-400 font-medium transition-all hover:translate-x-2'>
                         Contact Us

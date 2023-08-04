@@ -29,6 +29,7 @@ const MainContent = () => {
             </button>
             </div>
         </div>
+        
         <div className='mx-[8rem] '>
             {/* -------------------------------- */}
             <div className='flex justify-between items-center gap-8 pt-24 pb-12'>

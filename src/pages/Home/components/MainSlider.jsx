@@ -37,10 +37,10 @@ const MainSlider = () => {
                                 Get a Valet.
                             </h1>
                             <div className="flex justify-start items-center">
-                                <button className="font-semibold text-black hover:text-gray-800  py-3 px-4 rounded-full w-auto flex items-center justify-start gap-1">
+                                <button className="font-semibold text-slate-800 hover:text-black py-3 px-4 rounded-full w-auto flex items-center justify-start gap-1">
                                     Talk to us. <BsArrowRight />
                                 </button>
-                                <button className=" bg-gray-950 hover:bg-gray-800 py-3 px-4 rounded-full text-white w-auto flex items-center justify-start gap-1">
+                                <button className=" bg-slate-800 hover:bg-black py-3 px-4 rounded-full text-white w-auto flex items-center justify-start gap-1">
                                     Request a Valet. 
                                 </button>
                             </div>
@@ -59,10 +59,10 @@ const MainSlider = () => {
                             Get a Valet.
                         </h1>
                         <div className="flex justify-start items-center">
-                            <button className="font-semibold text-black hover:text-gray-800  py-3 px-4 rounded-full w-auto flex items-center justify-start gap-1">
+                            <button className="font-semibold text-slate-800 hover:text-black py-3 px-4 rounded-full w-auto flex items-center justify-start gap-1">
                                 Talk to us. <BsArrowRight />
                             </button>
-                            <button className="bg-gray-950 hover:bg-gray-800 py-3 px-4 rounded-full text-white w-auto">
+                            <button className="bg-slate-800 hover:bg-black py-3 px-4 rounded-full text-white w-auto">
                                 Request a Valet.
                             </button>
                         </div>
@@ -81,10 +81,10 @@ const MainSlider = () => {
                                 Get a Valet.
                             </h1>
                             <div className="flex justify-start items-center">
-                                <button className="font-semibold text-black hover:text-gray-800 py-3 px-4 rounded-full w-auto flex items-center justify-start gap-1">
+                                <button className="font-semibold text-slate-800 hover:text-black py-3 px-4 rounded-full w-auto flex items-center justify-start gap-1">
                                     Talk to us. <BsArrowRight />
                                 </button>
-                                <button className="bg-gray-950 hover:bg-gray-800 py-3 px-4 rounded-full text-white w-auto">
+                                <button className="bg-slate-800 hover:bg-black py-3 px-4 rounded-full text-white w-auto">
                                     Request a Valet.
                                 </button>
                             </div>

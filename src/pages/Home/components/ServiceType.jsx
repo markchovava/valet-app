@@ -19,7 +19,7 @@ const ServiceType = () => {
               <p>We secure cars at shows, clubs, churches and any gathering.</p>
             </div>
             <div className="pb-3">
-              <button className="text-white px-3 py-2 rounded-full transition bg-slate-800  hover:bg-slate-900">
+              <button className="text-white px-3 py-2 text-lg rounded-full transition bg-slate-800  hover:bg-black">
                   Click here
               </button>
             </div>
@@ -35,7 +35,7 @@ const ServiceType = () => {
               <p>We secure cars at shows, clubs, churches and any gathering.</p>
             </div>
             <div className="pb-3">
-              <button className="text-white px-3 py-2 rounded-full transition bg-slate-800  hover:bg-slate-900">
+              <button className="text-white px-3 py-2 text-lg rounded-full transition bg-slate-800  hover:bg-black">
                   Click here
               </button>
             </div>

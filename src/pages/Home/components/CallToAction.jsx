@@ -8,7 +8,7 @@ function CallToAction() {
           Lorem ipsum dolor sit amet consectetur. 
         </h1>
         <p className="text-xl mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, autem?</p>
-        <button className="px-4 py-3 text-lg rounded-full transition bg-slate-800 hover:bg-slate-900 ">
+        <button className="px-4 py-3 text-lg rounded-full transition bg-slate-800 hover:bg-black">
             Click here
         </button>
         </div>

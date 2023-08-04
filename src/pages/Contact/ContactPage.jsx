@@ -2,6 +2,8 @@ import React, { useEffect } from 'react'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import BottomLinks from '../../components/BottomLinks';
+import MainTitle from './components/MainTitle';
+import MainContent from './components/MainContent';
 
 function ContactPage() {
   useEffect(() => {
@@ -11,7 +13,8 @@ function ContactPage() {
   return (
     <>
       <Header />
-      <div>ContactPage</div>
+      <MainTitle />
+      <MainContent />
       <BottomLinks />
       <Footer />
     </>
